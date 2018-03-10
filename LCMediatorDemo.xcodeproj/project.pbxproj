@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F4E28CD205239490050ECF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28CC205239490050ECF2 /* AppDelegate.m */; };
+		0F4E28D0205239490050ECF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28CF205239490050ECF2 /* ViewController.m */; };
+		0F4E28D3205239490050ECF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4E28D1205239490050ECF2 /* Main.storyboard */; };
+		0F4E28D5205239490050ECF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F4E28D4205239490050ECF2 /* Assets.xcassets */; };
+		0F4E28D8205239490050ECF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4E28D6205239490050ECF2 /* LaunchScreen.storyboard */; };
+		0F4E28DB205239490050ECF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28DA205239490050ECF2 /* main.m */; };
+		0F4E28E5205239B80050ECF2 /* LCMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28E4205239B80050ECF2 /* LCMediator.m */; };
+		0F4E28EE20537F7C0050ECF2 /* LCMediator+ModuleAAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28ED20537F7C0050ECF2 /* LCMediator+ModuleAAction.m */; };
+		0F4E28F12053A9DB0050ECF2 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28F02053A9DB0050ECF2 /* Target_A.m */; };
+		0F4E28F42053AA7A0050ECF2 /* ModuleADetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28F32053AA7A0050ECF2 /* ModuleADetailController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F4E28C8205239490050ECF2 /* LCMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4E28CB205239490050ECF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F4E28CC205239490050ECF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F4E28CE205239490050ECF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F4E28CF205239490050ECF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F4E28D2205239490050ECF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F4E28D4205239490050ECF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F4E28D7205239490050ECF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F4E28D9205239490050ECF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F4E28DA205239490050ECF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F4E28E3205239B80050ECF2 /* LCMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCMediator.h; sourceTree = "<group>"; };
+		0F4E28E4205239B80050ECF2 /* LCMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCMediator.m; sourceTree = "<group>"; };
+		0F4E28E620523A3F0050ECF2 /* LCSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCSingleton.h; sourceTree = "<group>"; };
+		0F4E28EC20537F7C0050ECF2 /* LCMediator+ModuleAAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCMediator+ModuleAAction.h"; sourceTree = "<group>"; };
+		0F4E28ED20537F7C0050ECF2 /* LCMediator+ModuleAAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LCMediator+ModuleAAction.m"; sourceTree = "<group>"; };
+		0F4E28EF2053A9DB0050ECF2 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		0F4E28F02053A9DB0050ECF2 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		0F4E28F22053AA7A0050ECF2 /* ModuleADetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleADetailController.h; sourceTree = "<group>"; };
+		0F4E28F32053AA7A0050ECF2 /* ModuleADetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleADetailController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F4E28C5205239490050ECF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4E28BF205239490050ECF2 = {
+			isa = PBXGroup;
+			children = (
+				0F4E28CA205239490050ECF2 /* LCMediatorDemo */,
+				0F4E28C9205239490050ECF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F4E28C9205239490050ECF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E28C8205239490050ECF2 /* LCMediatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F4E28CA205239490050ECF2 /* LCMediatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E28E2205239750050ECF2 /* LCMediator */,
+				0F4E28EA20537C440050ECF2 /* Categories(这个repo由target-action维护者维护) */,
+				0F4E28EB20537C5E0050ECF2 /* DemoMoudule(这个repo提供服务) */,
+				0F4E28CB205239490050ECF2 /* AppDelegate.h */,
+				0F4E28CC205239490050ECF2 /* AppDelegate.m */,
+				0F4E28CE205239490050ECF2 /* ViewController.h */,
+				0F4E28CF205239490050ECF2 /* ViewController.m */,
+				0F4E28E12052395C0050ECF2 /* Other */,
+			);
+			path = LCMediatorDemo;
+			sourceTree = "<group>";
+		};
+		0F4E28E12052395C0050ECF2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E28D1205239490050ECF2 /* Main.storyboard */,
+				0F4E28D4205239490050ECF2 /* Assets.xcassets */,
+				0F4E28D6205239490050ECF2 /* LaunchScreen.storyboard */,
+				0F4E28D9205239490050ECF2 /* Info.plist */,
+				0F4E28DA205239490050ECF2 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0F4E28E2205239750050ECF2 /* LCMediator */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E28E620523A3F0050ECF2 /* LCSingleton.h */,
+				0F4E28E3205239B80050ECF2 /* LCMediator.h */,
+				0F4E28E4205239B80050ECF2 /* LCMediator.m */,
+			);
+			path = LCMediator;
+			sourceTree = "<group>";
+		};
+		0F4E28EA20537C440050ECF2 /* Categories(这个repo由target-action维护者维护) */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E28EC20537F7C0050ECF2 /* LCMediator+ModuleAAction.h */,
+				0F4E28ED20537F7C0050ECF2 /* LCMediator+ModuleAAction.m */,
+			);
+			path = "Categories(这个repo由target-action维护者维护)";
+			sourceTree = "<group>";
+		};
+		0F4E28EB20537C5E0050ECF2 /* DemoMoudule(这个repo提供服务) */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E28EF2053A9DB0050ECF2 /* Target_A.h */,
+				0F4E28F02053A9DB0050ECF2 /* Target_A.m */,
+				0F4E28F22053AA7A0050ECF2 /* ModuleADetailController.h */,
+				0F4E28F32053AA7A0050ECF2 /* ModuleADetailController.m */,
+			);
+			path = "DemoMoudule(这个repo提供服务)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F4E28C7205239490050ECF2 /* LCMediatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4E28DE205239490050ECF2 /* Build configuration list for PBXNativeTarget "LCMediatorDemo" */;
+			buildPhases = (
+				0F4E28C4205239490050ECF2 /* Sources */,
+				0F4E28C5205239490050ECF2 /* Frameworks */,
+				0F4E28C6205239490050ECF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCMediatorDemo;
+			productName = LCMediatorDemo;
+			productReference = 0F4E28C8205239490050ECF2 /* LCMediatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F4E28C0205239490050ECF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MarisLin;
+				TargetAttributes = {
+					0F4E28C7205239490050ECF2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0F4E28C3205239490050ECF2 /* Build configuration list for PBXProject "LCMediatorDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F4E28BF205239490050ECF2;
+			productRefGroup = 0F4E28C9205239490050ECF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F4E28C7205239490050ECF2 /* LCMediatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F4E28C6205239490050ECF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4E28D8205239490050ECF2 /* LaunchScreen.storyboard in Resources */,
+				0F4E28D5205239490050ECF2 /* Assets.xcassets in Resources */,
+				0F4E28D3205239490050ECF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F4E28C4205239490050ECF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4E28D0205239490050ECF2 /* ViewController.m in Sources */,
+				0F4E28DB205239490050ECF2 /* main.m in Sources */,
+				0F4E28EE20537F7C0050ECF2 /* LCMediator+ModuleAAction.m in Sources */,
+				0F4E28CD205239490050ECF2 /* AppDelegate.m in Sources */,
+				0F4E28F12053A9DB0050ECF2 /* Target_A.m in Sources */,
+				0F4E28E5205239B80050ECF2 /* LCMediator.m in Sources */,
+				0F4E28F42053AA7A0050ECF2 /* ModuleADetailController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F4E28D1205239490050ECF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F4E28D2205239490050ECF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F4E28D6205239490050ECF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F4E28D7205239490050ECF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F4E28DC205239490050ECF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F4E28DD205239490050ECF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F4E28DF205239490050ECF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBNT7R8ZWH;
+				INFOPLIST_FILE = "$(SRCROOT)/LCMediatorDemo/Other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bfkj.LCMediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F4E28E0205239490050ECF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBNT7R8ZWH;
+				INFOPLIST_FILE = "$(SRCROOT)/LCMediatorDemo/Other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bfkj.LCMediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F4E28C3205239490050ECF2 /* Build configuration list for PBXProject "LCMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4E28DC205239490050ECF2 /* Debug */,
+				0F4E28DD205239490050ECF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F4E28DE205239490050ECF2 /* Build configuration list for PBXNativeTarget "LCMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4E28DF205239490050ECF2 /* Debug */,
+				0F4E28E0205239490050ECF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F4E28C0205239490050ECF2 /* Project object */;
+}
